@@ -1,0 +1,74 @@
+/*GENERAL*/
+:root {
+    --main-color: #0065FC; /* var(--main-color) */
+    --second-color: #DEEBFF; /* var(--second-color) */
+    --light-grey-color: #F2F2F2; /* var(--light-grey-color) */
+  }
+
+body {
+	margin-top: 0px;
+    font-family: "Raleway", sans-serif;
+    
+} 
+
+header {
+    width: 100%;
+    /* max-width: 1400px; */
+
+}
+
+html {
+    font-family: "Raleway", sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Header */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 44px;
+    
+}
+
+.logobooki {
+    width: 62px;
+    height: 20px;
+       
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0px;
+
+}
+
+nav li {
+    margin: 0px 10px 0px 20px;
+    color: black; 
+    font-family:"Raleway";
+    padding-top: 20px;
+   
+}
+
+
+nav li:hover {
+    color: var(--main-color);
+    border-top: 2px solid;
+    padding-top: 20px;
+    
+
+}
+
+
+
+
+
+
+
