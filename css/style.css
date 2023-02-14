@@ -172,8 +172,8 @@ button {
     border-radius: 30px 25px 25px 30px;
     font-weight: bold;
     color: black;
-    width: 128px;
-    height: 41px;
+    width: 125px;
+    height: 40px;
     align-items: center;
     PADDING: 7px 15px 7px 15px;
 }
@@ -196,8 +196,8 @@ button {
     border-radius: 30px 25px 25px 30px;
     font-weight: bold;
     color: black;
-    width: 80px;
-    height: 41px;
+    width: 75px;
+    height: 40px;
     align-items: center;
     PADDING: 7px 15px 7px 15px;
 }
@@ -221,7 +221,7 @@ button {
     font-weight: bold;
     color: black;
     width: 120px;
-    height: 41px;
+    height: 40px;
     align-items: center;
     PADDING: 7px 15px 7px 15px;
 }
@@ -245,7 +245,7 @@ button {
     font-weight: bold;
     color: black;
     width: 165px;
-    height: 41px;
+    height: 40px;
     align-items: center;
     PADDING: 7px 15px 7px 15px;
 }
@@ -259,6 +259,35 @@ button {
     background-color: #DEEBFF;
     color: black;
     cursor: pointer;
+}
+
+/* main-section-info */
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.icon-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    border: 2px solid #f2f2f2;
+    color: #0065fc;
+    border-radius: 50%;
+}
+
+.text-info {
+    margin-left: 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    color: #000000;
 }
 
 
