@@ -1,49 +1,109 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<script src="https://kit.fontawesome.com/71e279f8bc.js" crossorigin="anonymous"></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-		<title>Booki</title>
-	</head>
-	<body>
-		
-		<!-- Header -->
-		<header>
-			<nav>
 
-				<img src="./images/logo/Booki.png" class="Logo-booki" alt="logo booki">
-				<a href="#">
-					<ul>
-						<li class="1">Hébergements</li>
-						<li class="2">Activités</li>
-					</ul>
-				</a>	
-				
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/71e279f8bc.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<title>Booki</title>
+</head>
 
-			</nav>
-		</header>
-		<main>
-			<section class="search-location">
-				<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-				<p>En plein centre-ville ou en pleine nature</p>
-				<!-- <form class="Search-form" action="/" method="POST"> -->
-				<div class="main-location">
+<body>
+
+	<!-- Header -->
+	<header>
+		<nav>
+
+			<img src="./images/logo/Booki.png" class="Logo-booki" alt="logo booki">
+			<a href="#">
+				<ul>
+					<li class="1">Hébergements</li>
+					<li class="2">Activités</li>
+				</ul>
+			</a>
+
+
+		</nav>
+	</header>
+	<main>
+		<section class="search-location">
+			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+			<p>En plein centre-ville ou en pleine nature</p>
+			<div class="main-location">
 				<span class="icon-location">
 					<i class="fa-solid fa-location-dot"></i>
 				</span>
-					<input type="text"  class="Text-search" placeholder="Marseille, France">
-					<button>
+				<input type="text" class="Text-search" placeholder="Marseille, France">
+				<button>
 					<span>Rechercher</span>
-					<!-- <i class="fas fa-search"></i> -->
-					</button>
+				</button>
+			</div>
+
+		</section>
+		<section class="filtres">
+			<h2>Filtres</h2>
+			<section class="filtres-list-price">
+
+				<div class="filtres-list-eco">
+					<div class="icon-price">
+						<i class="fa-solid fa-money-bill-wave"></i>
+					</div>
+					<div>
+						<span class="btn-price">Economique</span>
+					</div>
 				</div>
-				<!-- </form> -->
 			</section>
-		</main>
-	</body>
+			<section class="filtres-list-family">
+
+				<div class="filtres-list-fam">
+					<div class="icon-family">
+						<i class="fa-sharp fa-solid fa-person"></i>
+					</div>
+					<div>
+						<span class="btn-family">Familial</span>
+					</div>
+				</div>
+			</section>
+			<section class="filtres-list-romantic">
+
+				<div class="filtres-list-rom">
+					<div class="icon-romantic">
+						<i class="fa-solid fa-heart"></i>
+					</div>
+					<div>
+						<span class="btn-romantic">Romantique</span>
+					</div>
+				</div>
+			</section>
+			<section class="filtres-list-animal">
+
+				<div class="filtres-list-ani">
+					<div class="icon-animal">
+						<i class="fa-solid fa-dog"></i>
+					</div>
+					<div>
+						<span class="btn-animal">Animaux autorisés</span>
+					</div>
+				</div>
+			</section>
+			
+		</section>
+		<section class="info">
+				<div class="icon-info">
+					<i class="fa-regular fa-circle-info"></i>
+					<p>Plus de 500 logements sont disponibles dans cette ville</p>
+
+				</div>
+			
+		</section>
+
+
+
+	</main>
+</body>
+
 </html>

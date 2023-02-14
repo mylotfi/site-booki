@@ -1,15 +1,18 @@
 /*GENERAL*/
 :root {
-    --main-color: #0065FC; /* var(--main-color) */
-    --second-color: #DEEBFF; /* var(--second-color) */
-    --light-grey-color: #F2F2F2; /* var(--light-grey-color) */
-  }
+    --main-color: #0065FC;
+    /* var(--main-color) */
+    --second-color: #DEEBFF;
+    /* var(--second-color) */
+    --light-grey-color: #F2F2F2;
+    /* var(--light-grey-color) */
+}
 
 body {
-	margin-top: 0px;
+    margin-top: 0px;
     font-family: "Raleway", sans-serif;
-    
-} 
+
+}
 
 header {
     width: 100%;
@@ -18,7 +21,7 @@ header {
 }
 
 html {
-    font-family: "Raleway", sans-serif; 
+    font-family: "Raleway", sans-serif;
 }
 
 a {
@@ -33,13 +36,13 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding-left: 20px;
-    
+
 }
 
 .Logo-booki {
     width: 62px;
     height: 20px;
-       
+
 }
 
 nav ul {
@@ -51,10 +54,10 @@ nav ul {
 
 nav li {
     margin: 0px 10px 0px 20px;
-    color: black; 
-    font-family:"Raleway";
+    color: black;
+    font-family: "Raleway";
     padding-top: 20px;
-   
+
 }
 
 
@@ -62,7 +65,7 @@ nav li:hover {
     color: var(--main-color);
     border-top: 2px solid;
     padding-top: 20px;
-    
+
 
 }
 
@@ -85,7 +88,7 @@ h1 {
     font-size: 22px;
     line-height: 26px;
 }
-  
+
 p {
     font-family: 'Raleway';
     font-style: normal;
@@ -105,12 +108,6 @@ button {
     left: 247px;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
-}
-
-fas fa-map-marker-alt {
-    border-radius: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 .main-location {
@@ -133,15 +130,18 @@ fas fa-map-marker-alt {
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
 
-  }
+}
 
 .search-location input {
     background-color: #FFFFFF;
     font-weight: bold;
     border: 1px solid #F2F2F2;
-    border-radius: 15px;
     width: 150px;
     padding-left: 15px;
+}
+
+.search-location input:focus {
+    outline: 1px solid #F2F2F2;
 }
 
 .search-location button {
@@ -153,7 +153,113 @@ fas fa-map-marker-alt {
     width: 100px;
 }
 
+/* main-section-filtres */
 
+.filtres {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.filtres-list-eco {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px 25px 25px 30px;
+    font-weight: bold;
+    color: black;
+    width: 128px;
+    height: 41px;
+    align-items: center;
+    PADDING: 7px 15px 7px 15px;
+}
+
+.icon-price {
+    color: #0065fc;
+    cursor: pointer;
+}
+
+.filtres-list-price :hover {
+    background-color: #DEEBFF;
+    color: black;
+    cursor: pointer;
+}
+
+.filtres-list-fam {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px 25px 25px 30px;
+    font-weight: bold;
+    color: black;
+    width: 80px;
+    height: 41px;
+    align-items: center;
+    PADDING: 7px 15px 7px 15px;
+}
+
+.icon-family {
+    color: #0065fc;
+    cursor: pointer;
+}
+
+.filtres-list-family :hover {
+    background-color: #DEEBFF;
+    color: black;
+    cursor: pointer;
+}
+
+.filtres-list-rom {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px 25px 25px 30px;
+    font-weight: bold;
+    color: black;
+    width: 120px;
+    height: 41px;
+    align-items: center;
+    PADDING: 7px 15px 7px 15px;
+}
+
+.icon-romantic {
+    color: #0065fc;
+    cursor: pointer;
+}
+
+.filtres-list-romantic :hover {
+    background-color: #DEEBFF;
+    color: black;
+    cursor: pointer;
+}
+
+.filtres-list-ani {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px 25px 25px 30px;
+    font-weight: bold;
+    color: black;
+    width: 165px;
+    height: 41px;
+    align-items: center;
+    PADDING: 7px 15px 7px 15px;
+}
+
+.icon-animal {
+    color: #0065fc;
+    cursor: pointer;
+}
+
+.filtres-list-animal :hover {
+    background-color: #DEEBFF;
+    color: black;
+    cursor: pointer;
+}
 
 
 
