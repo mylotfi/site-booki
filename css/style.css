@@ -408,3 +408,23 @@ button {
     display: flex;
     justify-content: space-between;
 }
+
+/* main-section-footer */
+
+.section-footer {
+    width: 100%;
+    margin-top: 60px;
+    background: #f2f2f2;
+    display: flex;
+    height: 200px;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.title-footer {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
