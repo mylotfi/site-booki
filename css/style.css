@@ -305,7 +305,7 @@ button {
     padding-top: 4px;
     padding-right: 4px;
     margin-bottom: 31px;
-    box-shadow: 1px 1px 1px 0px darkgrey;
+    box-shadow: 1px 1px 1px 0px var(--second-color);
     padding-bottom: 11px;
     cursor: pointer;
 }
@@ -317,7 +317,7 @@ button {
     display: flex;
     flex-direction: row;
     padding: 6px;
-    box-shadow: 1px 1px 1px 0px darkgrey;
+    box-shadow: 1px 1px 1px 0px var(--second-color);
     cursor: pointer;
     width: 344px;
 
@@ -367,4 +367,44 @@ button {
     color: #0065FC;
     width: 18px;
     height: 15px;
+}
+
+/* main-section-activites */
+
+.title-activites {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    margin-top: 40px;
+}
+
+.bloc-ac-marseille {
+    box-shadow: inset 0px 1px 0px 2px var(--light-grey-color);
+    border-radius: 20px;
+    cursor: pointer;
+    width: 302px;
+    height: 449px;
+}
+
+.bloc-img-ac {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+}
+
+.s-titres-ac {
+    width: 249px;
+    font-family: 'Raleway';
+    margin-top: -10px;
+    padding-left: 31px;
+
+}
+
+.ac-marseilles {
+    display: flex;
+    justify-content: space-between;
 }
