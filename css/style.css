@@ -255,6 +255,7 @@ button {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    width: 70%;
 }
 
 .bloc-populaires {
@@ -262,6 +263,7 @@ button {
     border-radius: 20px;
     padding: 30px;
     margin-top: 20px;
+    width: 30%;
 }
 
 #main-hebergements {
@@ -317,7 +319,7 @@ button {
 
 .bloc-card {
     background: white;
-    width: 250px;
+    width: 33%;
     height: 230px;
     border-radius: 20px;
     padding-left: 4px;
