@@ -59,7 +59,8 @@ nav ul {
 
 }
 
-nav li {
+nav li.heb {
+  display: flex;
   margin: 0px 10px 0px 20px;
   color: black;
   font-family: "Raleway";
@@ -68,8 +69,26 @@ nav li {
   padding-right: 20px;
   cursor: pointer;
   border-top: 2px solid transparent;
+  width: 24%;
+  justify-content: center;
 
 }
+
+nav li.act {
+  display: flex;
+  margin: 0px 10px 0px 20px;
+  color: black;
+  font-family: "Raleway";
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  border-top: 2px solid transparent;
+  width: 8%;
+  justify-content: center;
+
+}
+
 
 
 nav li:hover {
@@ -290,6 +309,10 @@ button {
 
 }
 
+.card-link:hover {
+  color: #000000;
+}
+
 .bloc-img {
   width: 100%;
   height: 110px;
@@ -315,6 +338,7 @@ button {
   box-sizing: border-box;
   margin-bottom: 30px;
   width: 30%;
+  height: 50%;
 }
 
 .bloc-card-pop {
@@ -324,9 +348,6 @@ button {
   box-shadow: 0 0 16px #0000002e;
   box-sizing: border-box;
   margin-bottom: 60px;
-
-
-
 }
 
 .bloc-card-pop a {
@@ -337,11 +358,28 @@ button {
   padding-left: 18px;
 }
 
+.hebergements h3 {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 19px;
+
+}
+
+.hebergements p {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
 .populaires {
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 4% 1% 2% 4%;
+  padding: 12% 1% 4% 4%;
 }
 
 .card-star {
@@ -363,6 +401,7 @@ button {
   font-weight: 700;
   font-size: 18px;
   color: #000000;
+  margin-top: 17%;
 }
 
 .title-populaires {
@@ -421,11 +460,16 @@ button {
 }
 
 .s-titres-ac {
-  width: 249px;
+  /* width: 249px; */
   font-family: 'Raleway';
   margin-top: -10px;
-  padding-left: 31px;
+  padding-left: 15px;
 
+}
+
+.s-titres-ac h3 {
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .ac-marseilles {
@@ -460,4 +504,3 @@ footer div {
   font-size: 18px;
   line-height: 21px;
 }
-
